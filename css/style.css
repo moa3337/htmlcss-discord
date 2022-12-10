@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -93,6 +94,7 @@ h2{
 }
 
 p{
+    line-height: 1.5rem;
     font-size: 13px;
     padding-bottom: 15px;
 }
@@ -114,15 +116,11 @@ p{
 .big-box{
     width: 50%;
     height: 85%;
-    border-style: dashed;
-    background-color: lightskyblue;
 }
 
 .little-box{
-    width: 30%;
+    width: 25%;
     height: 85%;
-    border-style: dashed;
-    background-color: lightpink;
 }
 
 .last-box{
@@ -148,15 +146,17 @@ p{
 }
 
 #pink{
-    background-color: rgb(245, 116, 137);
+    text-align: initial;
+    padding: 20px;
+    color: white;
 }
 
 .multiple-box{
     width: 12.5%;
-    height: 85%;
-    border-style: dashed;
-    border-color: white;
-    background-color: rgb(43, 233, 224);
+    height: 70%;
+    color: white;
+    line-height: 18px;
+    text-align: initial;
 }
 
 .credentials{
@@ -171,15 +171,38 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(114, 215, 190);
-
 }
 
 .logo-button{
     width: 8%;
     height: 65%;
     text-align: center;
-    border-style: dashed;
-    background-color: rgb(245, 116, 137);
 }
 
+.menu-lingue{
+    font-size: 10px;
+    padding: 8px;
+}
+
+.menu-title-footer{
+    color: rgb(104, 71, 200);
+    font-size: 10px;
+    padding: 0;
+}
+
+.bottom-menu{
+    list-style: none;
+    font-size: 10px;
+}
+
+.border-bottom{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(104, 71, 200);
+}
+
+.button.footer{
+    color: white;
+    margin-top: 0 0 10px 0;
+    background-color: rgb(105, 75, 195);
+}
